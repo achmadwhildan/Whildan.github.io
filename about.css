@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.about{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.image img{
+    border-radius: 12px;
+}
+
+.artikel{
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.artikel h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.artikel p{
+    border-bottom: 2px solid rgb(116, 254, 106);
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+section{
+   background-color: rgb(116, 254, 106);
+}
+
+.skill{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skill h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.alamat{
+    text-align: center;
+}
+
+.alamat h1{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
