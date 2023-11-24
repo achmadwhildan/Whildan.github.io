@@ -31,6 +31,7 @@ header{
     padding: 0 60px;
     display: flex;
     justify-content: space-between;
+    border-bottom: 2px solid black;
 }
 
 .header-right{
@@ -65,4 +66,61 @@ header{
     margin-left: 8%;
     margin-top: 15%;
     font-size: 30px;
+}
+
+.detel span{
+    position: relative;
+}
+
+.detel span::before{
+    content: ACHMAD WHILDAN;
+    color: rgb(116, 254, 106);
+    animation: words 2s infinite;
+}
+
+.detel span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: white;
+    border-left: rgb(116, 254, 106);
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+.button a{
+    border-radius: 12px;
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid rgb(116, 254, 106);
+    margin-top: 20px;
+}
+
+.button a:hover{
+    background-color: rgb(116, 254, 106);
+    transition-duration: 1s;
+}
+
+@keyframes cursor{
+    to{
+        border-left: 2px solid white;
+    }
+}
+
+@keyframes words{
+    0%,20%{
+        content: "ACHMAD WHILDAN";
+    }
+}
+
+@keyframes typing{
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
 }

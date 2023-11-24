@@ -11,11 +11,11 @@ body {
     padding: 40px;
     text-align: center;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 3%;
     color: white;
     font-family: 'Centaury Gothic', sans-serif;
 }
- 
+
 .box-img {
     border-radius: 50%;
     width: 200px;
@@ -37,20 +37,21 @@ body {
 .box p{
     text-decoration: justify;
 }
- 
+
+
 .container{
     background-color: green;
     border-radius: 12px;
     padding: 10px 30px 10px 30px;
     cursor: pointer;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 590px;
-    margin-right: 570px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 583px;
+    margin-right: 400px;
 }
 
-.container a{
+a{
     text-decoration: none;
-    color: white;
     text-align: center;
+    color: white;
 }

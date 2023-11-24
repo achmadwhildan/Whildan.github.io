@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <header>
@@ -21,9 +23,12 @@
                     <div class="artikel">
                         <h1><span style="color:  rgb(116, 254, 106);">ACHMAD WHILDAN</span></h1>
                         <p>Saya whildan siswa dari SMK WIKRAMA BOGOR, Hobi saya bermain futsal,<br> 
-                           Umur saya 15 tahun jalan lembah neundeut Desa Sukakarya kecamatan <br>
-                           megamendung kabupaten bogor jurusan saya di SMK WIKRAMA adalah PPLG <br>
-                           atau Pengembangan perangkat lunak dan gim</p>
+                        Umur saya 15 tahun jalan lembah neundeut Desa Sukakarya kecamatan <br>
+                        megamendung kabupaten bogor jurusan saya di SMK WIKRAMA adalah PPLG <br>
+                        atau Pengembangan perangkat lunak dan gim</p>
+                    </div>
+                    <div class="button">
+                        <a href="contact.html">Contact me</a>
                     </div>
                 </article>
             </div>
@@ -42,5 +47,16 @@
             <span style="color: white;">Copyright©2023 Achmad Whildan</span>
         </footer>
     </header>
+    <script>
+        ScrollReveal({ 
+            reset: true, 
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        }); 
+        ScrollReveal().reveal('.about', { delay: 500, origin: 'left' });
+        ScrollReveal().reveal('.skill', { delay: 600, origin: 'right' });
+        ScrollReveal().reveal('.alamat', { delay: 700, origin: 'light' });
+    </script>
 </body>
 </html>

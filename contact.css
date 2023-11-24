@@ -16,7 +16,7 @@
     grid-template-rows: lfr auto lfr;
     align-items: center;
 }
- 
+
 .container{
     max-width: 700px;
     margin-top: 0 auto;
@@ -111,4 +111,21 @@ button:hover{
     font-weight: 600;
     transition: 0.3s ease;
     padding: 14px 15px;
+}
+
+.icon{
+    display: flex;
+    margin-left: 40%;
+    cursor: pointer;
+    font-size: 25px;
+} 
+
+.icon a{
+    text-decoration: none;
+    color: black;
+}
+
+.icon a:hover{
+    color: rgb(116, 254, 106);
+    transition-duration: 1s;
 }
