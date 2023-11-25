@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <script src="https://unpkg.com/scrollreveal"></script>
+    
 </head>
 <body>
     <header>
@@ -35,8 +37,18 @@
         </main>
         <section>
             <div class="skill">
-                <h1>SKILL YANG DI KUASAI</h1>
+                <h2>SKILL YANG DI KUASAI</h2>
                 <img src="html_css-removebg-preview.png" alt="image" width="300px">
+                <div class="skill-bar">
+                    <h2>PROGRES</h2>
+
+                    <li><h3>html</h3>
+                        <span class="bar"><span class="html"></span></span>
+                    </li>
+                    <li><h3>css</h3>
+                        <span class="bar"><span class="css"></span></span>
+                    </li>
+                </div>
             </div>
             <div class="alamat">
                 <h1>MAPS</h1>
@@ -56,7 +68,7 @@
         }); 
         ScrollReveal().reveal('.about', { delay: 500, origin: 'left' });
         ScrollReveal().reveal('.skill', { delay: 600, origin: 'right' });
-        ScrollReveal().reveal('.alamat', { delay: 700, origin: 'light' });
+        ScrollReveal().reveal('.alamat', { delay: 700, origin: 'left' });
     </script>
 </body>
 </html>
