@@ -125,6 +125,51 @@ section{
     background: linear-gradient( 135deg, rgba(116, 254, 106, 1)0%, rgba(256,103,103,1)100%);
 }
 
+.halaman{
+    position: relative;
+    min-height: 80vh;
+    background: #fff;
+}
+
+.halaman h1{
+    font-size: 40px;
+    font-weight: normal;
+    padding: 15px;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.halaman .sertifikat{
+    flex-wrap: wrap;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* text-align: center; */
+}
+
+
+.halaman .sertifikat .sertificat{
+    height: 250px;
+    width: 350px;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.halaman .sertifikat .sertificat img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.halaman .sertifikat .sertificat:hover img{
+    transform: scale(1.1);
+}
+
 .html{
     width: 90%;
     animation: html 3s;
